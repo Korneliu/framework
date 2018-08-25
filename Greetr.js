@@ -128,6 +128,5 @@
 
 	// attach our Greetr to the global object, and provide 
 	// a shorthand '$G' for ease our poor fingers
-
 	global.Greetr = global.G$ = Greetr;
 }(window, jQuery));
